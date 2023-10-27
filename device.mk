@@ -221,7 +221,7 @@ PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.3.vendor \
-    android.hardware.drm@1.4-service.clearkey
+    android.hardware.drm-service.clearkey
 
 # Euicc
 PRODUCT_COPY_FILES += \
@@ -408,6 +408,8 @@ PRODUCT_PACKAGES += \
     init.qcom.sh \
     init.qcom.usb.sh \
     init.qti.dcvs.sh \
+    init.qti.early_init.sh \
+    init.qti.media.sh \
     init.qti.qcv.sh
 
 PRODUCT_PACKAGES += \
